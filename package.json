@@ -1,13 +1,14 @@
 {
-  "name": "DojoBot",
-  "description": "",
+  "name": "dojobot",
   "version": "0.0.1",
+  "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "node bot.js"
   },
+  "author": "Spectrum!",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.js": "^11.3.0"
   }
 }
