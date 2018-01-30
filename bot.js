@@ -8,13 +8,13 @@ client.on('ready', () => {
 });
 
   }
-  if (msg.content.toLowerCase() === prefix + 'ping') {
+  if (msg.content.toLowerCase() === 'ping') {
     msg.reply('Pong! **' + client.ping + '** ms');
   }
   if (msg.content.toLowerCase() === 'sa' {
     msg.reply('Aleyküm Selam!');
   }
-  if (msg.content.toLowerCase() === prefix + 'fuckmylifexd') {
+  if (msg.content.toLowerCase() === 'fuckmylifexd') {
     msg.channel.sendMessage('Hoşgeldin Türkcaaaan');
   }
 });
