@@ -16,7 +16,7 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam!')
   }
   if (msg.content.toLowerCase() === 'fotoğrafım ne') {
-    message.reply(message.author.avatarURL)
+    msg.reply(message.author.avatarURL)
   }
 });
 
