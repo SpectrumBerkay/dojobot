@@ -23,7 +23,7 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selamün aleyküm') {
     msg.reply('Aleyküm Selam!')
   }
-  if (msg.content.toLowerCase() === prefix + 'bot') {
+  if (msg.content.toLowerCase() === 'bot komutları') {
     msg.reply('fbebsiping,fbebsibot')
   }
   
