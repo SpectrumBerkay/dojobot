@@ -24,7 +24,7 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam!')
   }
   if (msg.content.toLowerCase() === prefix + 'bot') {
-    msg.reply('!ping,!bot')
+    msg.reply('fbebsiping,fbebsibot')
   }
 });
 
