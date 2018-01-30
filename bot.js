@@ -24,7 +24,7 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam!')
   }
   if (msg.content.toLowerCase() === 'bot komutları') {
-    msg.reply('fbebsiping,fbebsibot')
+    msg.channel.sendMessage('fbebsiping,fbebsibot')
   }
   
 });
