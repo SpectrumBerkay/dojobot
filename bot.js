@@ -30,8 +30,8 @@ client.on('message', msg => {
   var args = msg.content.substring(prefix.lenght).split(" ");
   
   switch (args[0]) {
-    case "ping":
-      msg.channel.sendMessage("PONG!")
+    case "info":
+      msg.channel.sendMessage("I'm a super dope bot created my me ")
       break;
   }
 });
