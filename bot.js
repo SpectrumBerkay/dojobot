@@ -26,6 +26,14 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'bot') {
     msg.reply('!ping,!bot')
   }
+  
+  var args = msg.content.substring(PREFIX.lenght).split(" ");
+  
+  switch (args[0]) {
+    case "ping":
+      msg.channel.sendMessage("PONG!")
+      break;
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
