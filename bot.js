@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
- if (msg.content.toLowerCase() === prefix + 'ping') {
+ if (msg.content.toLowerCase() === 'ping') {
     msg.reply('Pong! **' + client.ping + '** ms');
   }
  if (msg.content.toLowerCase() === 'sa') {
@@ -24,7 +24,7 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam!')
   }
   if (msg.content.toLowerCase() === prefix + 'bot') {
-    msg.reply('!ping,!bot')
+    msg.reply('ping,!bot')
   }
   
   var args = msg.content.substring(prefix.lenght).split(" ");
