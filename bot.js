@@ -20,7 +20,7 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'fotoğrafım ne') {
     msg.reply(msg.author.avatarURL)
   }
-    if (msg.content.toLowerCase() === 'selamün aleyküm') {
+  if (msg.content.toLowerCase() === 'selamün aleyküm') {
     msg.reply('Aleyküm Selam!')
   }
 });
