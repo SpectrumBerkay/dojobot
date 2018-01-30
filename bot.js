@@ -15,7 +15,7 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'ping') {
     msg.reply('Pong! **' + client.ping + '** ms');
   }
-  if (msg.content.toLowerCase() === prefix + 'sa') {
+  if (msg.content.toLowerCase() === 'sa' {
     msg.reply('Aleyküm Selam!');
   }
   if (msg.content.toLowerCase() === prefix + 'fuckmylifexd') {
