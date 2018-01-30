@@ -23,6 +23,9 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selamün aleyküm') {
     msg.reply('Aleyküm Selam!')
   }
+  if (msg.content.toLowerCase() === prefix + 'bot') {
+    msg.reply('!ping,!bot')
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
