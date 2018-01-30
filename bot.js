@@ -27,7 +27,7 @@ client.on('message', msg => {
     msg.reply('!ping,!bot')
   }
   
-  var args = msg.content.substring(PREFIX.lenght).split(" ");
+  var args = msg.content.substring(prefix.lenght).split(" ");
   
   switch (args[0]) {
     case "ping":
