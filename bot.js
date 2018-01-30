@@ -26,10 +26,7 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'bot') {
     msg.reply('fbebsiping,fbebsibot')
   }
-  case "embed":
-  var embed = new Discord.RichEmbed()
-  .setDescription("Hello, this is awesome rich embed")
-  msg.channel.sendEmbed(embed);
+  
 });
 
 client.login(process.env.BOT_TOKEN);
