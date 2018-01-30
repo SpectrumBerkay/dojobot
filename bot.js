@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const Prefix = "fbebsi"
 
-var prefix = ("!");
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -33,6 +33,8 @@ client.on('message', msg => {
     case "info":
       msg.channel.sendMessage("I'm a super dope bot created my me ")
       break;
+    default:
+      msg.channel.sendMessage("Invalid command")
   }
 });
 
