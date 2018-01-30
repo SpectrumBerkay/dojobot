@@ -26,6 +26,9 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'bot komutları') {
     msg.channel.sendMessage('fbebsiping,fbebsibot')
   }
+  if (msg.content.toLowerCase() === 'embedyazlütfen') {
+    msg.channel.sendMessage('embed')
+  }
   
 });
 
