@@ -7,10 +7,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', msg => {
-  console.log(`Yeni Mesaj Alındı! Mesaj: ${msg.content} Yazan: ${msg.author.tag}`);
-  if (!msg.content.startsWith(prefix)) {
-	  return;
   }
   if (msg.content.toLowerCase() === prefix + 'ping') {
     msg.reply('Pong! **' + client.ping + '** ms');
